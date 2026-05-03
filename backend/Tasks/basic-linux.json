@@ -1,0 +1,20 @@
+[
+    {
+        "id": "task1",
+        "title": "create a user",
+        "description": "create a user named 'ram'",
+        "validator": "check_user.sh",
+        "points" : 10,
+        "difficulty": "easy",
+        "order": 1
+    },
+    {
+        "id": "task2",
+        "title": "create a group",
+        "description": "create a group named 'easy-devops'",
+        "validator": "check_group.sh",
+        "points" : 10,
+        "difficulty": "easy",
+        "order": 1
+    }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "task1",
+    "title": "Create a User",
+    "description": "Create a new user named 'ram' on the system",
+    "category": "linux",
+    "difficulty": "easy",
+    "points": 10,
+    "validator": "check_user.sh",
+    "instructions": "Use the 'useradd' command to create a user named 'ram'",
+    "hints": ["Try: useradd ram", "Make sure you have sudo privileges"],
+    "resources": ["https://man7.org/linux/man-pages/man8/useradd.8.html"],
+    "order": 1,
+    "isActive": true
+  },
+  {
+    "id": "task2",
+    "title": "Create a Group",
+    "description": "Create a new group named 'easy-devops'",
+    "category": "linux",
+    "difficulty": "easy",
+    "points": 10,
+    "validator": "check_group.sh",
+    "instructions": "Use the 'groupadd' command to create a group named 'easy-devops'",
+    "hints": ["Try: groupadd easy-devops", "Ensure proper permissions"],
+    "resources": ["https://man7.org/linux/man-pages/man8/groupadd.8.html"],
+    "order": 2,
+    "isActive": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "k8s1",
+    "title": "Deploy to Kubernetes",
+    "description": "Deploy an application to a Kubernetes cluster",
+    "category": "kubernetes",
+    "difficulty": "hard",
+    "points": 50,
+    "validator": "check_k8s_deployment.sh",
+    "instructions": "Create and deploy a Kubernetes pod/deployment",
+    "hints": ["Use 'kubectl apply' command", "Create a manifest file"],
+    "resources": ["https://kubernetes.io/docs/tasks/"],
+    "order": 1,
+    "isActive": true
+  }
+]

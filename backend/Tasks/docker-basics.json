@@ -1,0 +1,30 @@
+[
+  {
+    "id": "docker1",
+    "title": "Create a Docker Image",
+    "description": "Create a Docker image from a Dockerfile",
+    "category": "docker",
+    "difficulty": "medium",
+    "points": 25,
+    "validator": "check_docker_image.sh",
+    "instructions": "Create a simple Dockerfile and build an image",
+    "hints": ["Use 'docker build' command", "Tag your image appropriately"],
+    "resources": ["https://docs.docker.com/engine/reference/builder/"],
+    "order": 1,
+    "isActive": true
+  },
+  {
+    "id": "docker2",
+    "title": "Run a Docker Container",
+    "description": "Launch and manage Docker containers",
+    "category": "docker",
+    "difficulty": "easy",
+    "points": 10,
+    "validator": "check_docker_container.sh",
+    "instructions": "Run a container and expose ports",
+    "hints": ["Use 'docker run' with -p flag", "Check 'docker ps' to verify"],
+    "resources": ["https://docs.docker.com/engine/reference/commandline/run/"],
+    "order": 2,
+    "isActive": true
+  }
+]
